@@ -1,6 +1,15 @@
 .header {
-	height: 10rem;
-	background-image: url(../../images/bg-header-desktop.svg);
-	background-repeat: no-repeat;
-	background-color: var(--DarkCyan);
+  height: 10rem;
+  background-image: url(../../images/bg-header-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: var(--DarkCyan);
+  position: relative;
+}
+
+.filters {
+  width: 400px;
+  height: 100px;
+  border: 1px solid red;
+  position: relative;
+  bottom: calc(-100% + 50px);
 }

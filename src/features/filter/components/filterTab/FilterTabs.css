@@ -2,6 +2,16 @@
 	max-width: var(--desktop-width);
 	position: relative;
 	margin-bottom: 1rem;
+	min-height: 4.3rem;
+	transition: opacity 300ms linear;
+}
+
+.filterTab--show {
+	opacity: 1;
+}
+
+.filterTab--hide {
+	opacity: 0;
 }
 
 .filterTab__container {

@@ -1,3 +1,7 @@
+.job {
+  position: relative;
+}
+
 .job--featured {
   border-left: 0.4rem solid var(--DarkCyan);
   border-radius: 0.7rem;
@@ -70,4 +74,31 @@
   gap: 0.8rem;
   margin-left: auto;
   max-width: 50%;
+}
+
+@media only screen and (max-width: 580px) {
+  .job__container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .job__logo {
+    position: absolute;
+    left: 1.3rem;
+    top: -22px;
+    width: 44px;
+    height: 44px;
+  }
+
+  .job__description {
+    margin-top: 1rem;
+    border-bottom: 1px solid var(--VeryDarkGrayishCyan);
+    padding-bottom: 1rem;
+    width: 100%;
+  }
+
+  .job__filterTags {
+    margin-left: 0;
+    max-width: unset;
+  }
 }

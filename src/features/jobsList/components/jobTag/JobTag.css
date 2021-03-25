@@ -1,0 +1,15 @@
+.job__filterTag {
+	font-size: 0.9rem;
+	font-weight: 600;
+	padding: 0.5rem;
+	background-color: var(--LightGrayishCyan);
+	color: var(--DarkCyan);
+	border-radius: 5px;
+	cursor: pointer;
+	line-height: 1rem;
+}
+
+.job__filterTag:hover {
+	color: var(--LightGrayishCyan);
+	background-color: var(--DarkCyan);
+}

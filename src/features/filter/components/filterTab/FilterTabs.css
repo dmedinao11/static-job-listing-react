@@ -1,0 +1,30 @@
+.filterTab {
+	max-width: var(--desktop-width);
+	position: relative;
+	margin-bottom: 1rem;
+}
+
+.filterTab__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	gap: 1rem;
+}
+
+.filterTab__tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.8rem;
+}
+
+.filterTab__clear {
+	cursor: pointer;
+	font-weight: 600;
+	color: var(--DarkGrayishCyan);
+}
+
+.filterTab__clear:hover {
+	color: var(--DarkCyan);
+	text-decoration: underline;
+}

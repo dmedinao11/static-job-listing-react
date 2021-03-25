@@ -1,0 +1,68 @@
+.job {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	gap: 2rem;
+}
+
+.job__logo {
+	width: 88px;
+	height: 88px;
+}
+
+.job__description {
+	display: flex;
+	flex-direction: column;
+	gap: 0.3rem;
+}
+
+.job__tags {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.job__enterprise {
+	color: var(--DarkCyan);
+	font-size: 0.9rem;
+}
+
+.job__chip {
+	padding: 0 0.4rem;
+	border-radius: 0.9rem;
+	font-weight: 600;
+	text-align: center;
+	font-size: 0.6rem;
+	color: white;
+	line-height: 23px;
+}
+
+.job__chip--new {
+	background-color: var(--DarkCyan);
+}
+.job__chip--featured {
+	background-color: var(--VeryDarkGrayishCyan);
+}
+
+.job__title {
+	color: var(--VeryDarkGrayishCyan);
+	font-size: 1.1rem;
+	cursor: pointer;
+}
+
+.job__title:hover {
+	color: var(--DarkCyan);
+}
+
+.job__info {
+	color: var(--DarkGrayishCyan);
+	font-size: 0.9rem;
+}
+
+.job__filterTags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.8rem;
+	margin-left: auto;
+	max-width: 50%;
+}

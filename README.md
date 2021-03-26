@@ -1,44 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Lista de trabajos estaticas
 
-## Available Scripts
+_Reto 'Job listings with filtering' propuesto en
+[Frontendmentor.io](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt)_
 
-In the project directory, you can run:
+_Mira [aquí](https://dmedinao11.github.io/static-job-listing-react/) la aplicación final._
 
-### `npm start`
+## Previsualización 👀
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Escritorio 🖥
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![Desktop vista](https://raw.githubusercontent.com/dmedinao11/static-job-listing-react/master/preview/desktop.png)
 
-### `npm test`
+### Móvil 📱
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dmedinao11/static-job-listing-react/master/preview/mobile.png" alt="Mobile vista"/>
+</p>
 
-### `npm run build`
+## Comenzando 🚀
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu
+máquina local para propósitos de desarrollo y pruebas._
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Instalación 🔧
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_Paso a paso para ejecutar el proyecto desde tu computadora_
 
-### `npm run eject`
+_Clona el repositorio_
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+git clone https://github.com/dmedinao11/static-job-listing-react
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+_Abre la carpeta e instala las dependencias_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+cd static-job-listing-react
+npm i
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+_Ejecuta el servidor de desarrollo_
 
-## Learn More
+```
+npm run dev
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_Abre en tu navegador http://localhost:3000/ y listo!_
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Construido con 🛠️
+
+- [React JS](https://es.reactjs.org/) - El framework frontend usado
+- [Typescript](https://www.typescriptlang.org/) - El lenguaje usado
+- [Redux para React](https://react-redux.js.org/) - Menejador de estado
+
+## Autor ✒️
+
+- **Daniel Medina** - _Desarrollo_ - [dmedinao11](https://github.com/dmedinao11)
+
+---
+
+⌨️ con ❤️ por [dmedinao11](https://github.com/dmedinao11) 😊

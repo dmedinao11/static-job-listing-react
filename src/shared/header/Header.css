@@ -8,3 +8,9 @@
 	justify-content: center;
 	position: relative;
 }
+
+@media only screen and (max-width: 580px) {
+	.header {
+		background-image: url(../../images/bg-header-mobile.svg);
+	}
+}
